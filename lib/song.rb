@@ -29,6 +29,7 @@ class Song
     h = {}
     @@genres.each do |i|
       h[i] = @@count
+      if h[i]
     end
     h
   end
