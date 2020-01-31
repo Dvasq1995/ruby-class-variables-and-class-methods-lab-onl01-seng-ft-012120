@@ -26,11 +26,7 @@ class Song
   end
   
   def self.genre_count
-    genreHistogram = {}
     
-    @@genres.each.do |i|
-      genreHistogram
-    end
   end
   
   def self.artist_count
