@@ -26,7 +26,7 @@ class Song
   end
   
   def self.genre_count
-    
+    @@genres.to_h
   end
   
   def self.artist_count
