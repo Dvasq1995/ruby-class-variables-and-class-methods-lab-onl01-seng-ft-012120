@@ -28,7 +28,9 @@ class Song
   end
   
   def self.genre_count
-    if @@genre_count.keys
+    @@genre_count.map do |k, v|
+      if k[v] === 
+    end
   end
   
   def self.artist_count
